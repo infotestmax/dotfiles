@@ -66,3 +66,8 @@ export LC_ALL=en_US.UTF-8
 
 export BUNDLER_EDITOR=code
 export EDITOR=code
+
+# Use ipdb as the default debugging tool for Python breakpoint
+export PYTHONBREAKPOINT=ipdb.set_trace
+export PYTHONPATH="/home/biscuit/code/infotestmax/data-challenges/04-Decision-Science:$PYTHONPATH"
+
